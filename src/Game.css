@@ -1,0 +1,31 @@
+.tic-tac-toe {
+  /* display: flex;
+  justify-content: center; */
+  margin: 0 auto;
+}
+
+.title,
+.information {
+  text-align: center;
+  margin: 0 auto;
+  /* width: 50%; */
+}
+
+/* .board {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+} */
+
+.board {
+  min-width: (34 * 3) px;
+  min-height: (34 * 3) px;
+  padding: 13px;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.board-container {
+  display: flex;
+  justify-content: center;
+}
